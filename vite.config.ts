@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   // VITE_BASE_PATH is set by CI to /{repo-name} for GitHub Pages deployments
-  base: process.env.VITE_BASE_PATH || "/",
+  base: (process.env.VITE_BASE_PATH || "/").replace(/\/?$/, "/"),
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
   build: {
