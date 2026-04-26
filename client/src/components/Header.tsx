@@ -29,8 +29,8 @@ export default function Header() {
       <div className="container flex items-center justify-between h-20">
         {/* Logo */}
         <div className="flex items-center gap-3 group cursor-pointer">
-          <img 
-            src="/cappu_logo.jpeg"
+          <img
+            src={`${import.meta.env.BASE_URL}cappu_logo.jpeg`}
             alt="Cappu & Co Logo"
             className="h-12 w-auto group-hover:opacity-90 transition-opacity duration-300"
           />

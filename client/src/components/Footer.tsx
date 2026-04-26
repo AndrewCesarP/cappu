@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Sobre */}
           <div>
-            <img 
-              src="/cappu_logo.jpeg"
+            <img
+              src={`${import.meta.env.BASE_URL}cappu_logo.jpeg`}
               alt="Cappu & Co Logo"
               className="h-16 w-auto mb-4 opacity-90"
             />
