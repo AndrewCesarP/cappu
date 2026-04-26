@@ -23,7 +23,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Conteúdo */}
             <div className="fade-in-up">
-              <h1 className="font-serif font-bold text-5xl md:text-6xl leading-tight mb-6 text-primary">
+              <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 text-primary">
                 Embalagens Sustentáveis do Café ao Consumidor
               </h1>
               <p className="text-lg text-foreground/80 mb-8 leading-relaxed max-w-lg">
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
 
             {/* Imagem Hero */}
-            <div className="relative h-96 md:h-full min-h-96 rounded-lg overflow-hidden shadow-lg">
+            <div className="relative h-64 sm:h-80 lg:h-full lg:min-h-96 rounded-lg overflow-hidden shadow-lg">
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663261380883/E53SJ7xRztnrVwGqMqGj4y/cappu-hero-coffee-beans-SUDxfp8cjjrTeJ5bFb6Er2.webp"
                 alt="Grãos de café premium"
@@ -56,7 +56,7 @@ export default function Home() {
       <section id="problema" className="py-20 md:py-32 bg-accent/30">
         <div className="container">
           <div className="max-w-3xl mb-16">
-            <h2 className="font-serif font-bold text-4xl md:text-5xl mb-6 text-primary">
+            <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6 text-primary">
               O Problema
             </h2>
             <p className="text-lg text-foreground/80 leading-relaxed">
@@ -100,13 +100,13 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Conteúdo */}
             <div>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl mb-6 text-primary">
+              <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6 text-primary">
                 A Oportunidade
               </h2>
               <p className="text-lg text-foreground/80 leading-relaxed mb-8">
                 Unir o problema do resíduo com a necessidade de embalagens sustentáveis em uma única solução inovadora, alinhada aos ODS 12 e 13 da Agenda 2030 da ONU.
               </p>
-              <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative h-56 sm:h-72 md:h-96 rounded-lg overflow-hidden shadow-lg">
                 <img
                   src="https://d2xsxph8kpxj0f.cloudfront.net/310519663261380883/E53SJ7xRztnrVwGqMqGj4y/cappu-sustainability-cycle-fgX9oxpn26aPsGsyg2j7sU.webp"
                   alt="Ciclo de sustentabilidade"
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Imagem */}
-            <div className="relative h-96 md:h-full min-h-96 rounded-lg overflow-hidden shadow-lg order-2 lg:order-1">
+            <div className="relative h-64 sm:h-80 lg:h-full lg:min-h-96 rounded-lg overflow-hidden shadow-lg order-2 lg:order-1">
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663261380883/E53SJ7xRztnrVwGqMqGj4y/cappu-solution-composite-CyBQMUq4ooSJkhCXnvMnEx.webp"
                 alt="Compósito de embalagem sustentável"
@@ -142,7 +142,7 @@ export default function Home() {
 
             {/* Conteúdo */}
             <div className="order-1 lg:order-2">
-              <h2 className="font-serif font-bold text-4xl md:text-5xl mb-6 text-primary">
+              <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6 text-primary">
                 A Solução
               </h2>
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
@@ -197,7 +197,7 @@ export default function Home() {
 
             {/* Conteúdo */}
             <div>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl mb-6 text-primary">
+              <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6 text-primary">
                 Diferenciação e Inovação
               </h2>
               <p className="text-lg text-foreground/80 leading-relaxed mb-8">
@@ -252,7 +252,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Conteúdo */}
             <div>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl mb-6 text-primary">
+              <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6 text-primary">
                 Análise de Mercado
               </h2>
               <div className="space-y-6">
@@ -284,7 +284,7 @@ export default function Home() {
             </div>
 
             {/* Gráfico */}
-            <div className="relative h-96 md:h-full min-h-96 rounded-lg overflow-hidden shadow-lg">
+            <div className="relative h-64 sm:h-80 lg:h-full lg:min-h-96 rounded-lg overflow-hidden shadow-lg">
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663261380883/E53SJ7xRztnrVwGqMqGj4y/cappu-market-opportunity-dUW33oBq42w8NUk4zXZNrR.webp"
                 alt="Oportunidade de mercado"
@@ -298,7 +298,7 @@ export default function Home() {
       {/* Estratégia Section */}
       <section className="py-20 md:py-32">
         <div className="container">
-          <h2 className="font-serif font-bold text-4xl md:text-5xl mb-12 text-primary text-center">
+          <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-12 text-primary text-center">
             Estratégia de Longo Prazo
           </h2>
 
@@ -352,7 +352,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-12 relative h-96 md:h-full min-h-96 rounded-lg overflow-hidden shadow-lg">
+          <div className="mt-12 relative h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
             <img
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663261380883/E53SJ7xRztnrVwGqMqGj4y/cappu-team-innovation-ZubrNrkakKsU8bAobRU7HP.webp"
               alt="Inovação e colaboração"
@@ -368,7 +368,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Conteudo */}
             <div className="text-left">
-              <h2 className="font-serif font-bold text-4xl md:text-5xl mb-6">
+              <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6">
                 Investir na Cappu & Co
               </h2>
               <p className="text-lg opacity-90 mb-8 leading-relaxed">
